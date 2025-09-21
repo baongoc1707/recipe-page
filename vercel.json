@@ -17,7 +17,7 @@
         },
         {
             "src": "/CSS/(.*)",
-            "dest": "CSS/$1"
+            "dest": "CSS/index.css"
         },
         {
             "src": "/(.*)",
