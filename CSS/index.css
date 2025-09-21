@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: hsl(30, 18%, 87%);
+    font-family: "Outfit", sans-serif;
+}
+
+#container_page {
+    width: 80%;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(30, 10%, 34%);
+    padding: 25px;
+    border-radius: 16px;
+    line-height: 1.6;
+}
+
+#banner {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#banner>img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 30px;
+}
+
+article>p {
+    margin-bottom: 30px;
+}
+
+.article_overview,
+.article_ingredient,
+.article_instruction,
+.article_nutrition {
+    margin-bottom: 30px;
+}
+
+.article_overview {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.article_overview>h4 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.article_overview ul,
+.article_ingredient ul,
+.article_instruction ol {
+    padding-left: 1.6rem;
+    line-height: 2.2;
+}
+
+.article_overview li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.article_overview li,
+.article_ingredient li,
+.article_instruction li {
+    padding-left: 30px;
+}
+
+.li_subtitle {
+    font-weight: 600;
+}
+
+.article_ingredient li::marker,
+.article_instruction li::marker,
+.table_nutrition tr td:nth-of-type(2) {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.table_nutrition tr td {
+    color: hsl(30, 10%, 34%);
+    padding-left: 25px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
