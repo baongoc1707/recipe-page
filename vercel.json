@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "HTML/index.html",
+            "src": "index.html",
             "use": "@vercel/static"
         }
     ],
     "routes": [
         {
             "src": "/",
-            "dest": "/HTML/index.html"
+            "dest": "/index.html"
         },
         {
             "src": "/ASSETS/(.*)",
@@ -25,7 +25,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/HTML/index.html"
+            "dest": "/index.html"
         }
     ]
 }
