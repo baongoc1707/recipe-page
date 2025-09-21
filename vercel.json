@@ -12,6 +12,10 @@
             "dest": "/HTML/index.html"
         },
         {
+            "src": "/ASSETS/(.*)",
+            "dest": "ASSETS/$1"
+        },
+        {
             "src": "/CSS/(.*)",
             "dest": "CSS/$1"
         },
